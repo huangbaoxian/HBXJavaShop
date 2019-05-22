@@ -1,0 +1,27 @@
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file ~/Documents/log/gc.log.2019-05-22-14-40 due to No such file or directory
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.5.RELEASE)
+
+2019-05-22 14:40:02.693  INFO 29929 --- [           main] com.hbx.shop.ShopApplication             : Starting ShopApplication v1.0 on yuanjinliangdeMacBook-Pro.local with PID 29929 (/Users/huangbaoxian/Documents/ZongjieJavaWorkSpace/HBXJavaShop/target/shop-1.0.jar started by huangbaoxian in /Users/huangbaoxian/Documents/ZongjieJavaWorkSpace/HBXJavaShop/tool)
+2019-05-22 14:40:02.696  INFO 29929 --- [           main] com.hbx.shop.ShopApplication             : The following profiles are active: test
+2019-05-22 14:40:03.704  INFO 29929 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6d0e39fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-22 14:40:03.744  INFO 29929 --- [           main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-05-22 14:40:04.056  INFO 29929 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8899 (http)
+2019-05-22 14:40:04.099  INFO 29929 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 14:40:04.099  INFO 29929 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 14:40:04.208  INFO 29929 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 14:40:04.208  INFO 29929 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1451 ms
+2019-05-22 14:40:04.465  INFO 29929 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:40:04.721  INFO 29929 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8899 (http) with context path ''
+2019-05-22 14:40:04.725  INFO 29929 --- [           main] com.hbx.shop.ShopApplication             : Started ShopApplication in 2.784 seconds (JVM running for 3.242)
+2019-05-22 14:41:20.654  INFO 29929 --- [nio-8899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-22 14:41:20.655  INFO 29929 --- [nio-8899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-22 14:41:20.664  INFO 29929 --- [nio-8899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+start"3333"start"3333"start"3333"start"3333"start"3333"start"3333"start"3333"start"3333"
