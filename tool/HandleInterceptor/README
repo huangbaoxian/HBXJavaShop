@@ -1,0 +1,15 @@
+拦截器配置通过继承类 HandlerInterceptor
+
+并且设置配置文件
+
+@Configuration
+public class HanderInterCeptorConfig extends WebMvcConfigurerAdapter {
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+
+        registry.addInterceptor(new Test1Intercepter()).addPathPatterns("/*");
+        super.addInterceptors(registry);
+    }
+}
+
