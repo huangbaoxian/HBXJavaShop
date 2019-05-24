@@ -34,11 +34,36 @@
             <scope>test</scope>
         </dependency>
 
-
+        <!--apns apple推送框架-->
         <dependency>
             <groupId>cn.teaey.apns4j</groupId>
             <artifactId>apns4j</artifactId>
             <version>1.1.4</version>
+        </dependency>
+
+
+        <!--curd-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+
+        <!--mybatis-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>RELEASE</version>
         </dependency>
 
 

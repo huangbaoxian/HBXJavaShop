@@ -1,4 +1,6 @@
 package com.hbx.shop.controller;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
@@ -9,6 +11,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class ProContrller {
 
 
+    private Logger logger = LoggerFactory.getLogger(ProContrller.class);
+
     @Autowired
     private Environment environment;
 
@@ -18,8 +22,7 @@ public class ProContrller {
         String index = environment.getProperty("test.str");
 
         String realPath = System.getProperty("user.dir");
-        System.out.print(realPath);;
-
+        logger.info(realPath);
         return index;
     }
 
